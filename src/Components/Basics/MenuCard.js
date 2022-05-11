@@ -14,6 +14,7 @@ export const MenuCard = ({ menuData }) => {
           // Object.entries(menuData).map(function (eky, index) {
           // Object.values(menuData).map((currElement) => {
           menuData.map((currElement) => {
+            // destructuring
             const { id, name, category, image, description } = currElement;
             return (
               <>
