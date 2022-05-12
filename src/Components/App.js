@@ -1,14 +1,16 @@
 import React from 'react';
 // import { Resturant } from './Basics/Resturant';
 // import UseState from './Hooks/UseState';
-import { Todo } from './todo-react/todo';
+import { Temperature } from "./weather/temperature";
+// import { Todo } from './todo-react/todo';
 
-export const App = () => {
+const App = () => {
   return (
     <>
       {/* <Resturant /> */}
       {/* <UseState /> */}
-      <Todo />
+      <Temperature />
+      {/* <Todo /> */}
     </>
   )
 }
